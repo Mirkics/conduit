@@ -4,13 +4,13 @@
     "name" : "pytests.test_new_post",
     "children" : [ {
       "name" : "test_new_post",
-      "uid" : "f87e6f3a33e21273",
+      "uid" : "f206dff311a81f88",
       "parentUid" : "a9da2e6126adfcdf9fbca4b6485dba5a",
       "status" : "broken",
       "time" : {
-        "start" : 1628884984825,
-        "stop" : 1628884986635,
-        "duration" : 1810
+        "start" : 1628885451570,
+        "stop" : 1628885459021,
+        "duration" : 7451
       },
       "flaky" : false,
       "newFailed" : false,

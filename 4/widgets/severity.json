@@ -1,10 +1,10 @@
 [ {
-  "uid" : "f87e6f3a33e21273",
+  "uid" : "f206dff311a81f88",
   "name" : "test_new_post",
   "time" : {
-    "start" : 1628884984825,
-    "stop" : 1628884986635,
-    "duration" : 1810
+    "start" : 1628885451570,
+    "stop" : 1628885459021,
+    "duration" : 7451
   },
   "status" : "broken",
   "severity" : "normal"
