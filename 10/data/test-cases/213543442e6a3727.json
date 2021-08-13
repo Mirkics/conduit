@@ -1,0 +1,73 @@
+{
+  "uid" : "213543442e6a3727",
+  "name" : "test_conduit_cookie",
+  "fullName" : "pytests.test_conduit_cookie#test_conduit_cookie",
+  "historyId" : "3eb73132139661ebb72b66a1b64eb6de",
+  "time" : {
+    "start" : 1628889141968,
+    "stop" : 1628889141968,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit_cookie"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-628"
+  }, {
+    "name" : "thread",
+    "value" : "3726-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytests.test_conduit_cookie"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "33d9828f5be563d9",
+        "reportUrl" : "https://Mirkics.github.io/conduit/9//#testresult/33d9828f5be563d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628888539219,
+          "stop" : 1628888539219,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "213543442e6a3727.json",
+  "parameterValues" : [ ]
+}
