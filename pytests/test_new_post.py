@@ -6,12 +6,13 @@ import time
 import csv
 
 opt = Options()
-opt.headless = False
-    # driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
+opt.headless = True
+
 def test_new_post():
 
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=opt)
-    driver.set_window_size(1000, 600, 600)
+    # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=opt)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
+    # driver.set_window_size(1000, 600, 600)
 
     # Load page
     driver.get("http://localhost:1667/")
