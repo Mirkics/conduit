@@ -1,5 +1,5 @@
 # TC008 - Saját blog bejegyzés törlése
-import ...
+
 
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
