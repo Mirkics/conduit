@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "pytests.test_new_post",
+    "children" : [ {
+      "name" : "test_new_post",
+      "uid" : "d66f9a730fda83f8",
+      "parentUid" : "a9da2e6126adfcdf9fbca4b6485dba5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628887942396,
+        "stop" : 1628887959034,
+        "duration" : 16638
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "pytests.test_new_post"
+  } ],
+  "name" : "packages"
+}
