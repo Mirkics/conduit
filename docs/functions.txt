@@ -1,0 +1,15 @@
+regisztráció
+bejelentkezés
+kijelentkezés
+adatkezelési (cookie) nyilatkozat
+új blog bejegyzés közzététele: cím, bejegyzés tárgya, bejegyzés, címke megadásával0
+ismételt és sorozatos adatbevitel adatforrásból. beállítások módosítása: profil kép, user név, szöveges leírás, email cím, jelszó módosítása
+meglévő adat módosítása: (saját) meglévő bejegyzés módosítása
+adat vagy adatok törlése: (saját) meglévő bejegyzés törlése
+adatok lementése felületről
+meglévő bejegyzéshez hozzászólás írása
+(saját) hozzászólás törlése
+saját bejegyzések megtekintése
+kedvenc bejegyzések megtekintése
+kedvenc bejegyzések megjelölése
+kedvenc bejegyzések megjelölésének visszavonása
