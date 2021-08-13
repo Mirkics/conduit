@@ -1,5 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "fv-az72-270",
+    "children" : [ {
+      "name" : "3834-MainThread",
+      "children" : [ {
+        "name" : "test_new_post",
+        "uid" : "f87e6f3a33e21273",
+        "parentUid" : "25c846dffe120eefd6bf913130414bc3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628884984825,
+          "stop" : 1628884986635,
+          "duration" : 1810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25c846dffe120eefd6bf913130414bc3"
+    } ],
+    "uid" : "749356569a77741ef93504539a218894"
+  } ],
   "name" : "timeline"
 }

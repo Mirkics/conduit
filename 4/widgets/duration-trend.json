@@ -1,3 +1,17 @@
 [ {
+  "buildOrder" : 4,
+  "reportUrl" : "https://Mirkics.github.io/conduit/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 1810
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://Mirkics.github.io/conduit/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 10632
+  }
+}, {
   "data" : { }
 } ]

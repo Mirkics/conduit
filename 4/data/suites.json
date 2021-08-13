@@ -1,5 +1,26 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "pytests",
+    "children" : [ {
+      "name" : "test_new_post",
+      "children" : [ {
+        "name" : "test_new_post",
+        "uid" : "f87e6f3a33e21273",
+        "parentUid" : "b91cc8a867395d10188e38e269cb668c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628884984825,
+          "stop" : 1628884986635,
+          "duration" : 1810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b91cc8a867395d10188e38e269cb668c"
+    } ],
+    "uid" : "8c2019785098c931abfd140e70ffb1f2"
+  } ],
   "name" : "suites"
 }
