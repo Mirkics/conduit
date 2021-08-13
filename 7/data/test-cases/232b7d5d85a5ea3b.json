@@ -1,0 +1,136 @@
+{
+  "uid" : "232b7d5d85a5ea3b",
+  "name" : "test_new_post",
+  "fullName" : "pytests.test_new_post#test_new_post",
+  "historyId" : "fa3f33c2f6ee50f8918d9b1eeddf557f",
+  "time" : {
+    "start" : 1628887929886,
+    "stop" : 1628887949900,
+    "duration" : 20014
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7997ff1bfc023920",
+      "name" : "log",
+      "source" : "7997ff1bfc023920.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "5a4d3c8a702684e",
+      "name" : "stderr",
+      "source" : "5a4d3c8a702684e.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytests"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_post"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-628"
+  }, {
+    "name" : "thread",
+    "value" : "3750-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytests.test_new_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "7b42439fb1e33726",
+        "reportUrl" : "https://Mirkics.github.io/conduit/6//#testresult/7b42439fb1e33726",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628886015784,
+          "stop" : 1628886017560,
+          "duration" : 1776
+        }
+      }, {
+        "uid" : "f206dff311a81f88",
+        "reportUrl" : "https://Mirkics.github.io/conduit/4//#testresult/f206dff311a81f88",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628885451570,
+          "stop" : 1628885459021,
+          "duration" : 7451
+        }
+      }, {
+        "uid" : "9d05dbe06b38a29d",
+        "reportUrl" : "https://Mirkics.github.io/conduit/5//#testresult/9d05dbe06b38a29d",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628885430177,
+          "stop" : 1628885444038,
+          "duration" : 13861
+        }
+      }, {
+        "uid" : "f87e6f3a33e21273",
+        "reportUrl" : "https://Mirkics.github.io/conduit/4//#testresult/f87e6f3a33e21273",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628884984825,
+          "stop" : 1628884986635,
+          "duration" : 1810
+        }
+      }, {
+        "uid" : "2b8b157206374126",
+        "reportUrl" : "https://Mirkics.github.io/conduit/3//#testresult/2b8b157206374126",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628875873503,
+          "stop" : 1628875884135,
+          "duration" : 10632
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "232b7d5d85a5ea3b.json",
+  "parameterValues" : [ ]
+}

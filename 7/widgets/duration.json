@@ -1,0 +1,11 @@
+[ {
+  "uid" : "232b7d5d85a5ea3b",
+  "name" : "test_new_post",
+  "time" : {
+    "start" : 1628887929886,
+    "stop" : 1628887949900,
+    "duration" : 20014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

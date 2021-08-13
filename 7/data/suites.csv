@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 13 20:52:09 GMT 2021","Fri Aug 13 20:52:29 GMT 2021","20014","pytests","test_new_post","","","","test_new_post",""
