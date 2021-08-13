@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f97873c0bfc37f27",
+  "name" : "test_new_post",
+  "time" : {
+    "start" : 1628888539221,
+    "stop" : 1628888561141,
+    "duration" : 21920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33d9828f5be563d9",
+  "name" : "test_conduit_cookie",
+  "time" : {
+    "start" : 1628888539219,
+    "stop" : 1628888539219,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
