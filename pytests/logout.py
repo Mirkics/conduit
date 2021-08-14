@@ -7,28 +7,43 @@ import time
 opt = Options()
 opt.headless = False
 
-driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=opt)
+def test_sign_in():
 
-try:
-    def test_sign_in(email, password):
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=opt)
+
+    # login adatok
+    email = 'testuser2@example.com'
+    pwd = 'Abcd123$'
+
+
+    try:
+        #def test_sign_in(email, pwd):
         driver.get("http://localhost:1667/#/")
-        driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
-        driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/fieldset[1]/input').send_keys(
-            'first@gmail.com')
-        driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/fieldset[2]/input').send_keys('First12345')
-        driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button').click()
-        time.sleep(8)
+        driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()  # menu sign in button
+        driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/fieldset[1]/input').send_keys(email)
+        driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/fieldset[2]/input').send_keys(pwd)
+        sign_in_btn = driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button')
+        sign_in_btn.click()
+        time.sleep(5)
 
-    def test_logout():
-        logout_btn = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a/text()')
+        assert driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a').text == 'testuser2'
+        #assert driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a').is_enabled()
+        # assert sign_in_btn.is_disabled()
+
+        #def test_logout():
+        logout_btn = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a/i')
+        assert logout_btn.is_enabled()
         logout_btn.click()
+        time.sleep(3)
 
-    assert text == 'Sign up'
-    time.sleep(5)
-    test_sign_in('first@gmail.com', 'First12345')
-    time.sleep(5)
-    test_logout()
-    time.sleep(3)
+        sign_in_btn = driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button')
+        assert sign_in_btn.is_enabled()
 
-finally:
-    driver.close()
+        time.sleep(2)
+        # test_sign_in('testuser2@example.com', 'Abcd123$')
+        # time.sleep(5)
+        # test_logout()
+        # time.sleep(3)
+
+    finally:
+        driver.close()
