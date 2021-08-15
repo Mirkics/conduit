@@ -1,0 +1,181 @@
+{
+  "uid" : "9943cf442df6e8e1",
+  "name" : "test_new_posts",
+  "fullName" : "pytests.test_new_post#test_new_posts",
+  "historyId" : "99ec7a78bc96b8af7e19757e542a6b87",
+  "time" : {
+    "start" : 1629060545208,
+    "stop" : 1629060549841,
+    "duration" : 4633
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cde4337b1d224da2",
+      "name" : "log",
+      "source" : "cde4337b1d224da2.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "e5e14ba569436dcc",
+      "name" : "stderr",
+      "source" : "e5e14ba569436dcc.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytests"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_post"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-270"
+  }, {
+    "name" : "thread",
+    "value" : "3867-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytests.test_new_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "472cad030a6a6676",
+        "reportUrl" : "https://Mirkics.github.io/conduit/27//#testresult/472cad030a6a6676",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629060416339,
+          "stop" : 1629060420915,
+          "duration" : 4576
+        }
+      }, {
+        "uid" : "c5e8cdde18ab6816",
+        "reportUrl" : "https://Mirkics.github.io/conduit/26//#testresult/c5e8cdde18ab6816",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629060299497,
+          "stop" : 1629060304125,
+          "duration" : 4628
+        }
+      }, {
+        "uid" : "74619f9c574c8c30",
+        "reportUrl" : "https://Mirkics.github.io/conduit/25//#testresult/74619f9c574c8c30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059820496,
+          "stop" : 1629059825013,
+          "duration" : 4517
+        }
+      }, {
+        "uid" : "e976ea75cbda47a0",
+        "reportUrl" : "https://Mirkics.github.io/conduit/24//#testresult/e976ea75cbda47a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056653358,
+          "stop" : 1629056665933,
+          "duration" : 12575
+        }
+      }, {
+        "uid" : "bb8cc7ba8dfa7d0f",
+        "reportUrl" : "https://Mirkics.github.io/conduit/23//#testresult/bb8cc7ba8dfa7d0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629055400802,
+          "stop" : 1629055408921,
+          "duration" : 8119
+        }
+      }, {
+        "uid" : "8eb9f16628607812",
+        "reportUrl" : "https://Mirkics.github.io/conduit/22//#testresult/8eb9f16628607812",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div/div/div/form/fieldset[1]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629046726294,
+          "stop" : 1629046732818,
+          "duration" : 6524
+        }
+      }, {
+        "uid" : "56d8cfe64d503c30",
+        "reportUrl" : "https://Mirkics.github.io/conduit/21//#testresult/56d8cfe64d503c30",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div/div/div/form/fieldset[1]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629046580345,
+          "stop" : 1629046584162,
+          "duration" : 3817
+        }
+      }, {
+        "uid" : "b219787dfad30a0",
+        "reportUrl" : "https://Mirkics.github.io/conduit/20//#testresult/b219787dfad30a0",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div/div/div/form/fieldset[1]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629042917056,
+          "stop" : 1629042924517,
+          "duration" : 7461
+        }
+      }, {
+        "uid" : "200addc36a1d2e93",
+        "reportUrl" : "https://Mirkics.github.io/conduit/19//#testresult/200addc36a1d2e93",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div/div/div/form/fieldset[1]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629036832118,
+          "stop" : 1629036837495,
+          "duration" : 5377
+        }
+      }, {
+        "uid" : "b72623cde2f4a093",
+        "reportUrl" : "https://Mirkics.github.io/conduit/18//#testresult/b72623cde2f4a093",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div/div/div/form/fieldset[1]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629036271485,
+          "stop" : 1629036277471,
+          "duration" : 5986
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9943cf442df6e8e1.json",
+  "parameterValues" : [ ]
+}
