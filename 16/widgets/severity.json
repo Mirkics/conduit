@@ -1,0 +1,31 @@
+[ {
+  "uid" : "2bf51afb167b4439",
+  "name" : "test_delete_blog",
+  "time" : {
+    "start" : 1629024862597,
+    "stop" : 1629024865262,
+    "duration" : 2665
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eda645a65bd6d6fd",
+  "name" : "test_conduit_cookie",
+  "time" : {
+    "start" : 1629024862595,
+    "stop" : 1629024862595,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f91200d3e1f23d",
+  "name" : "test_new_post",
+  "time" : {
+    "start" : 1629024865317,
+    "stop" : 1629024881579,
+    "duration" : 16262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

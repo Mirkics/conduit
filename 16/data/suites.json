@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "pytests",
+    "children" : [ {
+      "name" : "test_conduit_cookie",
+      "children" : [ {
+        "name" : "test_conduit_cookie",
+        "uid" : "eda645a65bd6d6fd",
+        "parentUid" : "69211fb0bcea113e3d6df57307375519",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629024862595,
+          "stop" : 1629024862595,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69211fb0bcea113e3d6df57307375519"
+    }, {
+      "name" : "test_delete_blog",
+      "children" : [ {
+        "name" : "test_delete_blog",
+        "uid" : "2bf51afb167b4439",
+        "parentUid" : "baedc22f9f9c24fce2db7c9ae1b11246",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629024862597,
+          "stop" : 1629024865262,
+          "duration" : 2665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "baedc22f9f9c24fce2db7c9ae1b11246"
+    }, {
+      "name" : "test_new_post",
+      "children" : [ {
+        "name" : "test_new_post",
+        "uid" : "20f91200d3e1f23d",
+        "parentUid" : "b91cc8a867395d10188e38e269cb668c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629024865317,
+          "stop" : 1629024881579,
+          "duration" : 16262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b91cc8a867395d10188e38e269cb668c"
+    } ],
+    "uid" : "8c2019785098c931abfd140e70ffb1f2"
+  } ],
+  "name" : "suites"
+}
