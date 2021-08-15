@@ -53,5 +53,18 @@ def test_logout():
         data_list()
         time.sleep(3)
 
+        def save_list(titles_of_articles):
+
+            for i in range(len(titles_of_articles)):
+                titles_of_articles[i].click()
+                time.sleep(2)
+                serial_number = i + 1
+                title = driver.find_element_by_tag_name("h1").text
+                article_text = driver.find_element_by_tag_name("p").text
+                with open("content_list.txt", "a") as file:
+                    file.write(str(serial_number) + ". : " + title + "\n" + article_text + "\n\n")
+
+            save_list(titles_of_articles)
+
     finally:
         driver.close()
