@@ -1,5 +1,5 @@
-selenium==3.141.0
+selenium
 urllib3
-pytest==6.2.4
-allure-pytest==2.8.40
-webdriver-manager==3.4.2
+pytest
+allure-pytest
+webdriver-manager
