@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Mirkics.github.io/conduit",
+  "buildOrder" : 17,
+  "buildName" : "GitHub Actions Run #1132627154",
+  "buildUrl" : "https://github.com/Mirkics/conduit/actions/runs/1132627154",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Mirkics.github.io/conduit/17/"
+} ]
