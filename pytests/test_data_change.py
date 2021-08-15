@@ -48,7 +48,7 @@ def test_data_change():
 
             bio_data = 'I like ice-cream'
             settings = driver.find_element_by_xpath("//a[@href='#/settings']")
-            settings.click()  # click the settings on menu
+            settings.click()  # click the settings
             time.sleep(1)
 
             driver.find_element_by_xpath("// textarea").clear()  # clear text data
