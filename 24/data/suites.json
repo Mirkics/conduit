@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "pytests",
+    "children" : [ {
+      "name" : "test_conduit_cookie",
+      "children" : [ {
+        "name" : "test_conduit_cookie",
+        "uid" : "4a94a7b15b27f690",
+        "parentUid" : "69211fb0bcea113e3d6df57307375519",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056638504,
+          "stop" : 1629056638504,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69211fb0bcea113e3d6df57307375519"
+    }, {
+      "name" : "test_delete_blogpost",
+      "children" : [ {
+        "name" : "test_delete_blog",
+        "uid" : "b5d514e08e7d60e2",
+        "parentUid" : "9fe284079514881b6cc591a8b36f506a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629056638507,
+          "stop" : 1629056653291,
+          "duration" : 14784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fe284079514881b6cc591a8b36f506a"
+    }, {
+      "name" : "test_new_post",
+      "children" : [ {
+        "name" : "test_new_posts",
+        "uid" : "e976ea75cbda47a0",
+        "parentUid" : "b91cc8a867395d10188e38e269cb668c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056653358,
+          "stop" : 1629056665933,
+          "duration" : 12575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b91cc8a867395d10188e38e269cb668c"
+    }, {
+      "name" : "test_sign_up",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "18cc75b9bc36ecc5",
+        "parentUid" : "0c99367a60be7538058dd8a257fe9d0a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629056665937,
+          "stop" : 1629056667117,
+          "duration" : 1180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c99367a60be7538058dd8a257fe9d0a"
+    } ],
+    "uid" : "8c2019785098c931abfd140e70ffb1f2"
+  } ],
+  "name" : "suites"
+}
