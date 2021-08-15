@@ -7,7 +7,7 @@ import time
 
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 
 def test_login():
