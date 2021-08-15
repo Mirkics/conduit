@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "pytests",
+    "children" : [ {
+      "name" : "test_blog_change",
+      "children" : [ {
+        "name" : "test_blog_change",
+        "uid" : "845335ba88cfa9af",
+        "parentUid" : "c1ac3e6ef13914a34f1a6c76a314b6ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629046717974,
+          "stop" : 1629046725006,
+          "duration" : 7032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c1ac3e6ef13914a34f1a6c76a314b6ee"
+    }, {
+      "name" : "test_conduit_cookie",
+      "children" : [ {
+        "name" : "test_conduit_cookie",
+        "uid" : "12f01381e864a773",
+        "parentUid" : "69211fb0bcea113e3d6df57307375519",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629046725074,
+          "stop" : 1629046725074,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69211fb0bcea113e3d6df57307375519"
+    }, {
+      "name" : "test_delete_blogpost",
+      "children" : [ {
+        "name" : "test_delete_blog",
+        "uid" : "9b5e97e073b34d2d",
+        "parentUid" : "9fe284079514881b6cc591a8b36f506a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629046725076,
+          "stop" : 1629046726258,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fe284079514881b6cc591a8b36f506a"
+    }, {
+      "name" : "test_new_post",
+      "children" : [ {
+        "name" : "test_new_posts",
+        "uid" : "8eb9f16628607812",
+        "parentUid" : "b91cc8a867395d10188e38e269cb668c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629046726294,
+          "stop" : 1629046732818,
+          "duration" : 6524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b91cc8a867395d10188e38e269cb668c"
+    }, {
+      "name" : "test_sign_up",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "a1387ca8ed9f13",
+        "parentUid" : "0c99367a60be7538058dd8a257fe9d0a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629046732854,
+          "stop" : 1629046734033,
+          "duration" : 1179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c99367a60be7538058dd8a257fe9d0a"
+    } ],
+    "uid" : "8c2019785098c931abfd140e70ffb1f2"
+  } ],
+  "name" : "suites"
+}
