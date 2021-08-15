@@ -29,13 +29,6 @@ def test_new_posts():
     username_f = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a')
     pwd_f = driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/fieldset[2]/input')
 
-    # Fields xpath
-    # title_f = '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[1]/input'
-    # about_f = '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[2]/input'
-    # write_f = '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[3]/textarea'
-    # tags_f = '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[4]/div/div/ul/li/input'
-
-
     # Buttons find
     sign_btn = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a')
     sign_in_btn = driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button')
