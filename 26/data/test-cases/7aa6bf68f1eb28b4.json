@@ -1,0 +1,95 @@
+{
+  "uid" : "7aa6bf68f1eb28b4",
+  "name" : "test_data_change",
+  "fullName" : "pytests.test_data_change#test_data_change",
+  "historyId" : "79213f1db89e2583de18a034d64c68e9",
+  "time" : {
+    "start" : 1629060291586,
+    "stop" : 1629060297665,
+    "duration" : 6079
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c15b8aa6aabc4187",
+      "name" : "log",
+      "source" : "c15b8aa6aabc4187.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "3b693b69480a10b1",
+      "name" : "stderr",
+      "source" : "3b693b69480a10b1.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytests"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_change"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-699"
+  }, {
+    "name" : "thread",
+    "value" : "3740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytests.test_data_change"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c0da9cd772db48bd",
+        "reportUrl" : "https://Mirkics.github.io/conduit/25//#testresult/c0da9cd772db48bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059802270,
+          "stop" : 1629059818165,
+          "duration" : 15895
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7aa6bf68f1eb28b4.json",
+  "parameterValues" : [ ]
+}
