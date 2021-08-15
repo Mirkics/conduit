@@ -51,12 +51,13 @@ def test_logout():
             # print(titles_of_articles)
 
         data_list()
+        driver.back()
         time.sleep(3)
 
-        def save_list(titles_of_articles):
-
-            for i in range(len(titles_of_articles)):
-                titles_of_articles[i].click()
+        def save_list():
+            article_title = driver.find_elements_by_xpath("//h1")
+            for i in range(len(article_title)):
+                article_title[i].click()
                 time.sleep(2)
                 serial_number = i + 1
                 title = driver.find_element_by_tag_name("h1").text
@@ -64,7 +65,7 @@ def test_logout():
                 with open("content_list.txt", "a") as file:
                     file.write(str(serial_number) + ". : " + title + "\n" + article_text + "\n\n")
 
-            save_list(titles_of_articles)
+        save_list()
 
     finally:
         driver.close()
