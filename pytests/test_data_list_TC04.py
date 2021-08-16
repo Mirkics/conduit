@@ -8,7 +8,7 @@ opt = Options()
 opt.headless = True
 
 
-def test_logout():
+def test_data_list():
 
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
     # driver.set_window_size(1000, 600, 600)
