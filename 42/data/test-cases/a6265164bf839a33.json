@@ -1,0 +1,176 @@
+{
+  "uid" : "a6265164bf839a33",
+  "name" : "test_logout",
+  "fullName" : "pytests.test_logout_TC09#test_logout",
+  "historyId" : "602685abc53bb5ade60d11135f88b377",
+  "time" : {
+    "start" : 1629130642938,
+    "stop" : 1629130647529,
+    "duration" : 4591
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "22ca0b28bdc83f3d",
+      "name" : "log",
+      "source" : "22ca0b28bdc83f3d.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "1288da9b1ce57f78",
+      "name" : "stderr",
+      "source" : "1288da9b1ce57f78.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytests"
+  }, {
+    "name" : "suite",
+    "value" : "test_logout_TC09"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-548"
+  }, {
+    "name" : "thread",
+    "value" : "3668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytests.test_logout_TC09"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "7c6a267d84f1a20f",
+        "reportUrl" : "https://Mirkics.github.io/conduit/41//#testresult/7c6a267d84f1a20f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629130096059,
+          "stop" : 1629130099646,
+          "duration" : 3587
+        }
+      }, {
+        "uid" : "2d6df911609fcc33",
+        "reportUrl" : "https://Mirkics.github.io/conduit/40//#testresult/2d6df911609fcc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629124501943,
+          "stop" : 1629124506525,
+          "duration" : 4582
+        }
+      }, {
+        "uid" : "2cf4d8661518accc",
+        "reportUrl" : "https://Mirkics.github.io/conduit/39//#testresult/2cf4d8661518accc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629123357913,
+          "stop" : 1629123362475,
+          "duration" : 4562
+        }
+      }, {
+        "uid" : "b571cc1dd07e520",
+        "reportUrl" : "https://Mirkics.github.io/conduit/38//#testresult/b571cc1dd07e520",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113116465,
+          "stop" : 1629113121422,
+          "duration" : 4957
+        }
+      }, {
+        "uid" : "71c594e692026238",
+        "reportUrl" : "https://Mirkics.github.io/conduit/37//#testresult/71c594e692026238",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113021738,
+          "stop" : 1629113025761,
+          "duration" : 4023
+        }
+      }, {
+        "uid" : "f4a2e616b6f8beb6",
+        "reportUrl" : "https://Mirkics.github.io/conduit/36//#testresult/f4a2e616b6f8beb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629112965714,
+          "stop" : 1629112970255,
+          "duration" : 4541
+        }
+      }, {
+        "uid" : "a332809d57170594",
+        "reportUrl" : "https://Mirkics.github.io/conduit/35//#testresult/a332809d57170594",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629111293097,
+          "stop" : 1629111298128,
+          "duration" : 5031
+        }
+      }, {
+        "uid" : "b97e69975238b93",
+        "reportUrl" : "https://Mirkics.github.io/conduit/34//#testresult/b97e69975238b93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629069628144,
+          "stop" : 1629069631771,
+          "duration" : 3627
+        }
+      }, {
+        "uid" : "c6d217ef940cf8b5",
+        "reportUrl" : "https://Mirkics.github.io/conduit/33//#testresult/c6d217ef940cf8b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629067213973,
+          "stop" : 1629067218526,
+          "duration" : 4553
+        }
+      }, {
+        "uid" : "96d2971eae928d94",
+        "reportUrl" : "https://Mirkics.github.io/conduit/32//#testresult/96d2971eae928d94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629062974348,
+          "stop" : 1629062978978,
+          "duration" : 4630
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a6265164bf839a33.json",
+  "parameterValues" : [ ]
+}

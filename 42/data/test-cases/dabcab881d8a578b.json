@@ -1,0 +1,113 @@
+{
+  "uid" : "dabcab881d8a578b",
+  "name" : "test_data_list",
+  "fullName" : "pytests.test_data_list_TC04#test_data_list",
+  "historyId" : "486c2af6f1cc8ac1986cbd767c3a4ed2",
+  "time" : {
+    "start" : 1629130631169,
+    "stop" : 1629130638325,
+    "duration" : 7156
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fc4162e7c6052ac",
+      "name" : "log",
+      "source" : "4fc4162e7c6052ac.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "eef2c8d2c4fbbf26",
+      "name" : "stderr",
+      "source" : "eef2c8d2c4fbbf26.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytests"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_list_TC04"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-548"
+  }, {
+    "name" : "thread",
+    "value" : "3668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytests.test_data_list_TC04"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e801986cac219949",
+        "reportUrl" : "https://Mirkics.github.io/conduit/41//#testresult/e801986cac219949",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629130084629,
+          "stop" : 1629130091389,
+          "duration" : 6760
+        }
+      }, {
+        "uid" : "92a793909f42d36b",
+        "reportUrl" : "https://Mirkics.github.io/conduit/40//#testresult/92a793909f42d36b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629124489614,
+          "stop" : 1629124497326,
+          "duration" : 7712
+        }
+      }, {
+        "uid" : "c3db4feda4c5ed6b",
+        "reportUrl" : "https://Mirkics.github.io/conduit/39//#testresult/c3db4feda4c5ed6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629123345626,
+          "stop" : 1629123353323,
+          "duration" : 7697
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dabcab881d8a578b.json",
+  "parameterValues" : [ ]
+}
