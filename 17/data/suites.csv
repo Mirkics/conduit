@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sun Aug 15 12:15:06 GMT 2021","Sun Aug 15 12:15:11 GMT 2021","5472","pytests","test_delete_blog","","","","test_delete_blog",""
-"passed","Sun Aug 15 12:15:11 GMT 2021","Sun Aug 15 12:15:29 GMT 2021","18098","pytests","test_new_post","","","","test_new_post",""
-"passed","Sun Aug 15 12:15:06 GMT 2021","Sun Aug 15 12:15:06 GMT 2021","1","pytests","test_conduit_cookie","","","","test_conduit_cookie",""

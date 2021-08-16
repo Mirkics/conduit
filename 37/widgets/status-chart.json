@@ -1,0 +1,71 @@
+[ {
+  "uid" : "2d422ee54099c0b8",
+  "name" : "test_delete_blog",
+  "time" : {
+    "start" : 1629113016655,
+    "stop" : 1629113021735,
+    "duration" : 5080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2080470447162c22",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1629113008535,
+    "stop" : 1629113016652,
+    "duration" : 8117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71c594e692026238",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1629113021738,
+    "stop" : 1629113025761,
+    "duration" : 4023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1f6c688e329609",
+  "name" : "test_new_posts",
+  "time" : {
+    "start" : 1629113025766,
+    "stop" : 1629113030834,
+    "duration" : 5068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa26ff4d99001399",
+  "name" : "test_data_change",
+  "time" : {
+    "start" : 1629113002344,
+    "stop" : 1629113008531,
+    "duration" : 6187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "807a21409b823f42",
+  "name" : "test_conduit_cookie",
+  "time" : {
+    "start" : 1629113002336,
+    "stop" : 1629113002336,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "663badf9259b6427",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1629113030838,
+    "stop" : 1629113037863,
+    "duration" : 7025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
