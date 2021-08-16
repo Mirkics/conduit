@@ -1,0 +1,149 @@
+{
+  "uid" : "32b5915928f9ab0a",
+  "name" : "test_data_change",
+  "fullName" : "pytests.test_data_change_TC06#test_data_change",
+  "historyId" : "1d2f2689d6fa3115859c5213632503a0",
+  "time" : {
+    "start" : 1629123335316,
+    "stop" : 1629123345623,
+    "duration" : 10307
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "26f9d271da728c6a",
+      "name" : "log",
+      "source" : "26f9d271da728c6a.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "4260d8fd1048c608",
+      "name" : "stderr",
+      "source" : "4260d8fd1048c608.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytests"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_change_TC06"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-270"
+  }, {
+    "name" : "thread",
+    "value" : "3674-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytests.test_data_change_TC06"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "c4c60fd6f7d31fa",
+        "reportUrl" : "https://Mirkics.github.io/conduit/38//#testresult/c4c60fd6f7d31fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113095497,
+          "stop" : 1629113104433,
+          "duration" : 8936
+        }
+      }, {
+        "uid" : "aa26ff4d99001399",
+        "reportUrl" : "https://Mirkics.github.io/conduit/37//#testresult/aa26ff4d99001399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113002344,
+          "stop" : 1629113008531,
+          "duration" : 6187
+        }
+      }, {
+        "uid" : "f6af4c9b3df69807",
+        "reportUrl" : "https://Mirkics.github.io/conduit/36//#testresult/f6af4c9b3df69807",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629112943431,
+          "stop" : 1629112954457,
+          "duration" : 11026
+        }
+      }, {
+        "uid" : "e709debecf6e4b7",
+        "reportUrl" : "https://Mirkics.github.io/conduit/35//#testresult/e709debecf6e4b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629111276234,
+          "stop" : 1629111282017,
+          "duration" : 5783
+        }
+      }, {
+        "uid" : "8e867c6bc88c2b37",
+        "reportUrl" : "https://Mirkics.github.io/conduit/34//#testresult/8e867c6bc88c2b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629069611020,
+          "stop" : 1629069616681,
+          "duration" : 5661
+        }
+      }, {
+        "uid" : "a6759a6325a7e2ba",
+        "reportUrl" : "https://Mirkics.github.io/conduit/33//#testresult/a6759a6325a7e2ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629067196025,
+          "stop" : 1629067201824,
+          "duration" : 5799
+        }
+      }, {
+        "uid" : "392aab97fd64957a",
+        "reportUrl" : "https://Mirkics.github.io/conduit/32//#testresult/392aab97fd64957a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629062940342,
+          "stop" : 1629062962909,
+          "duration" : 22567
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "32b5915928f9ab0a.json",
+  "parameterValues" : [ ]
+}
